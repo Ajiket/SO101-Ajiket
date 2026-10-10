@@ -1,0 +1,43 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+secrets*
+credentials*
+token*
+
+# OS / editor
+*.lnk
+*.url
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ML outputs and large data
+outputs/
+wandb/
+data/
+checkpoints/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.mp4
+*.zip
+*.pdf
+
+# Repo-specific: inference logs can leak local user paths
+inference_logs*.md
+terminal_response*.md
